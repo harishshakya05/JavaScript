@@ -1,8 +1,10 @@
-// 1. premetive 
-// Number, Boolean, String, Null, undefined, Symbol
+// 1. primitive (call be value)
+// Number, Boolean, String, Null, undefined, Symbol, BigInt
 
-// 2. non premetive ()
+// 2. non primitive (call by reference)
 // Array,Object,function
+
+
 let age = 30 // number
 let isValid = true // boolean
 let name  = "Harish" // string
@@ -30,6 +32,10 @@ let newScore = Number(score)
 // console.log(12 - "12");
 // console.log(12 - 12);
 
-console.log(+true);
+// console.log(+true);
 
-console.log(+"");
+// console.log(+"");
+
+// const id  = Symbol("123")
+// const id2  = Symbol("123")
+// console.log(id== id2)
